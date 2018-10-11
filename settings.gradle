@@ -1,0 +1,11 @@
+rootProject.name = 'spring-cloud-examples'
+
+
+
+/*
+
+include '05/provider'
+rootProject.children.find { it.name == '05/provider' }.name = 'provider05'
+
+*/
+

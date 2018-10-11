@@ -1,0 +1,9 @@
+subprojects {
+
+    repositories {
+        mavenCentral()
+    }
+    apply plugin: 'java'
+    apply plugin: 'eclipse'
+    sourceCompatibility = 1.8
+}
