@@ -4,7 +4,7 @@ Spring Cloud 使用的各种示例，以最简单、最实用为标准
 
 [Spring Cloud 中文索引](https://github.com/ityouknow/awesome-spring-cloud)  &nbsp;| &nbsp; [Spring Boot学习示例代码](https://github.com/ityouknow/spring-boot-examples)  &nbsp;| &nbsp; [参与贡献](https://github.com/ityouknow/spring-cloud-examples/issues)
 
-[English](README_EN.md) &nbsp;| &nbsp; **[github地址](https://github.com/ityouknow/spring-cloud-examples)**  &nbsp;| &nbsp; **[码云地址](https://gitee.com/ityouknow/spring-cloud-examples)**
+ **[github地址](https://github.com/ityouknow/spring-cloud-examples)**  &nbsp;| &nbsp; **[码云地址](https://gitee.com/ityouknow/spring-cloud-examples)**
 
 Spring Cloud使用的各种示例，以最简单、最实用为标准
 

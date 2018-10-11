@@ -4,14 +4,22 @@ rootProject.name = 'spring-cloud-examples'
 
 
 
+//简单的注册中心
 include '001-spring-cloud-eureka/1-eureka'
 rootProject.children.find { it.name == '001-spring-cloud-eureka/1-eureka' }.name = '001-1-eureka'
 
+//双节点注册中心
 include '001-spring-cloud-eureka/2-eureka-two'
 rootProject.children.find { it.name == '001-spring-cloud-eureka/2-eureka-two' }.name = '001-2-eureka-two'
 
+//eureka集群使用,3节点集群
 include '001-spring-cloud-eureka/3-eureka-cluster'
 rootProject.children.find { it.name == '001-spring-cloud-eureka/3-eureka-cluster' }.name = '001-3-eureka-cluster'
+
+
+
+
+
 
 
 
