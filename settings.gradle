@@ -2,10 +2,10 @@ rootProject.name = 'spring-cloud-examples'
 
 
 
-/*
 
-include '05/provider'
-rootProject.children.find { it.name == '05/provider' }.name = 'provider05'
 
-*/
+include '001-spring-cloud-eureka/spring-cloud-eureka'
+rootProject.children.find { it.name == '001-spring-cloud-eureka/spring-cloud-eureka' }.name = '001-spring-cloud-eureka'
+
+
 
