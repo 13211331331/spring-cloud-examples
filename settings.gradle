@@ -1,22 +1,37 @@
 rootProject.name = 'spring-cloud-examples'
 
 
+//注册中心Eureka
+//http://www.ityouknow.com/springcloud/2017/05/10/springcloud-eureka.html
+
+    //简单的注册中心
+    include '001-spring-cloud-eureka/1-eureka'
+    rootProject.children.find { it.name == '001-spring-cloud-eureka/1-eureka' }.name = '001-1-eureka'
+
+    //双节点注册中心
+    include '001-spring-cloud-eureka/2-eureka-two'
+    rootProject.children.find { it.name == '001-spring-cloud-eureka/2-eureka-two' }.name = '001-2-eureka-two'
+
+    //eureka集群使用,3节点集群
+    include '001-spring-cloud-eureka/3-eureka-cluster'
+    rootProject.children.find { it.name == '001-spring-cloud-eureka/3-eureka-cluster' }.name = '001-3-eureka-cluster'
 
 
 
-//简单的注册中心
-include '001-spring-cloud-eureka/1-eureka'
-rootProject.children.find { it.name == '001-spring-cloud-eureka/1-eureka' }.name = '001-1-eureka'
+//服务提供与调用
+//http://www.ityouknow.com/springcloud/2017/05/12/eureka-provider-constomer.html
 
-//双节点注册中心
-include '001-spring-cloud-eureka/2-eureka-two'
-rootProject.children.find { it.name == '001-spring-cloud-eureka/2-eureka-two' }.name = '001-2-eureka-two'
+    //注册中心
+    include '002-eureka-producer-consumer/1-eureka'
+    rootProject.children.find { it.name == '002-eureka-producer-consumer/1-eureka' }.name = '002-1-eureka'
 
-//eureka集群使用,3节点集群
-include '001-spring-cloud-eureka/3-eureka-cluster'
-rootProject.children.find { it.name == '001-spring-cloud-eureka/3-eureka-cluster' }.name = '001-3-eureka-cluster'
+    //服务生产者
+    include '002-eureka-producer-consumer/2-producer'
+    rootProject.children.find { it.name == '002-eureka-producer-consumer/2-producer' }.name = '002-2-producer'
 
-
+    //服务消费者
+    include '002-eureka-producer-consumer/3-consumer'
+    rootProject.children.find { it.name == '002-eureka-producer-consumer/3-consumer' }.name = '002-3-consumer'
 
 
 
