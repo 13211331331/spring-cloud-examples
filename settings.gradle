@@ -4,8 +4,8 @@ rootProject.name = 'spring-cloud-examples'
 
 
 
-include '001-spring-cloud-eureka/spring-cloud-eureka'
-rootProject.children.find { it.name == '001-spring-cloud-eureka/spring-cloud-eureka' }.name = '001-spring-cloud-eureka'
+include '001-spring-cloud-eureka/1-eureka'
+rootProject.children.find { it.name == '001-spring-cloud-eureka/1-eureka' }.name = '001-1-eureka'
 
 
 
