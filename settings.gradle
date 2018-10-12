@@ -57,10 +57,21 @@ rootProject.children.find { it.name == '004-hystrix-dashboard-turbine/3-consumer
 include '004-hystrix-dashboard-turbine/4-consumer-hystrix-dashboard'
 rootProject.children.find { it.name == '004-hystrix-dashboard-turbine/4-consumer-hystrix-dashboard' }.name = '004-4-consumer-hystrix-dashboard'
 
-*/
+
 
 include '005-config-git/1-config-server'
 rootProject.children.find { it.name == '005-config-git/1-config-server' }.name = '005-1-server'
 
 include '005-config-git/2-config-client'
 rootProject.children.find { it.name == '005-config-git/2-config-client' }.name = '005-2-client'
+*/
+
+
+include '006-config-svn-refresh/1-config-server'
+rootProject.children.find { it.name == '006-config-svn-refresh/1-config-server' }.name = '006-1-server'
+
+include '006-config-svn-refresh/2-config-client'
+rootProject.children.find { it.name == '006-config-svn-refresh/2-config-client' }.name = '006-2-client'
+
+include '006-config-svn-refresh/3-config-client-refresh'
+rootProject.children.find { it.name == '006-config-svn-refresh/3-config-client-refresh' }.name = '006-3-client-refresh'
