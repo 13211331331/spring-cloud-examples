@@ -64,7 +64,7 @@ rootProject.children.find { it.name == '005-config-git/1-config-server' }.name =
 
 include '005-config-git/2-config-client'
 rootProject.children.find { it.name == '005-config-git/2-config-client' }.name = '005-2-client'
-*/
+
 
 
 include '006-config-svn-refresh/1-config-server'
@@ -75,3 +75,14 @@ rootProject.children.find { it.name == '006-config-svn-refresh/2-config-client' 
 
 include '006-config-svn-refresh/3-config-client-refresh'
 rootProject.children.find { it.name == '006-config-svn-refresh/3-config-client-refresh' }.name = '006-3-client-refresh'
+
+*/
+
+include '007-config-eureka/1-eureka'
+rootProject.children.find { it.name == '007-config-eureka/1-eureka' }.name = '007-1-eureka'
+
+include '007-config-eureka/2-config-server'
+rootProject.children.find { it.name == '007-config-eureka/2-config-server' }.name = '007-2-config-server'
+
+include '007-config-eureka/3-config-client'
+rootProject.children.find { it.name == '007-config-eureka/3-config-client' }.name = '007-3-config-client'
