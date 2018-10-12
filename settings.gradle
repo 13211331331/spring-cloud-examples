@@ -38,7 +38,7 @@ rootProject.children.find { it.name == '003-hystrix/2-producer' }.name = '003-2-
 include '003-hystrix/3-consumer-hystrix'
 rootProject.children.find { it.name == '003-hystrix/3-consumer-hystrix' }.name = '003-3-consumer-hystrix'
 
-*/
+
 
 
 
@@ -57,3 +57,10 @@ rootProject.children.find { it.name == '004-hystrix-dashboard-turbine/3-consumer
 include '004-hystrix-dashboard-turbine/4-consumer-hystrix-dashboard'
 rootProject.children.find { it.name == '004-hystrix-dashboard-turbine/4-consumer-hystrix-dashboard' }.name = '004-4-consumer-hystrix-dashboard'
 
+*/
+
+include '005-config-git/1-config-server'
+rootProject.children.find { it.name == '005-config-git/1-config-server' }.name = '005-1-server'
+
+include '005-config-git/2-config-client'
+rootProject.children.find { it.name == '005-config-git/2-config-client' }.name = '005-2-client'
