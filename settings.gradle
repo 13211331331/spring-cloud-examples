@@ -1,6 +1,7 @@
 rootProject.name = 'spring-cloud-examples'
 
 
+/*
 
 
 include '001-spring-cloud-eureka/1-eureka'
@@ -27,6 +28,7 @@ rootProject.children.find { it.name == '002-eureka-producer-consumer/3-consumer'
 
 
 
+
 include '003-hystrix/1-eureka'
 rootProject.children.find { it.name == '003-hystrix/1-eureka' }.name = '003-1-eureka'
 
@@ -36,7 +38,22 @@ rootProject.children.find { it.name == '003-hystrix/2-producer' }.name = '003-2-
 include '003-hystrix/3-consumer-hystrix'
 rootProject.children.find { it.name == '003-hystrix/3-consumer-hystrix' }.name = '003-3-consumer-hystrix'
 
+*/
 
 
 
+include '004-hystrix-dashboard-turbine/1-eureka'
+rootProject.children.find { it.name == '004-hystrix-dashboard-turbine/1-eureka' }.name = '004-1-eureka'
+
+include '004-hystrix-dashboard-turbine/2-hystrix-dashboard-turbine'
+rootProject.children.find { it.name == '004-hystrix-dashboard-turbine/2-hystrix-dashboard-turbine' }.name = '004-2-2-hystrix-dashboard-turbine'
+
+include '004-hystrix-dashboard-turbine/3-consumer-node1'
+rootProject.children.find { it.name == '004-hystrix-dashboard-turbine/3-consumer-node1' }.name = '004-3-consumer-node1'
+
+include '004-hystrix-dashboard-turbine/3-consumer-node2'
+rootProject.children.find { it.name == '004-hystrix-dashboard-turbine/3-consumer-node2' }.name = '004-3-consumer-node2'
+
+include '004-hystrix-dashboard-turbine/4-consumer-hystrix-dashboard'
+rootProject.children.find { it.name == '004-hystrix-dashboard-turbine/4-consumer-hystrix-dashboard' }.name = '004-4-consumer-hystrix-dashboard'
 
